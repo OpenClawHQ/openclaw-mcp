@@ -1,0 +1,38 @@
+{
+  "name": "@openclawHQ/skill-mcp",
+  "version": "0.1.0",
+  "description": "Bridge between OpenClaw SKILL.md format and Model Context Protocol (MCP)",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "skill-mcp": "bin/skill-mcp.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/**/*.test.js",
+    "lint": "echo 'TODO: add linting'",
+    "build": "echo 'TODO: add build process'",
+    "start": "node bin/skill-mcp.js serve ./skills"
+  },
+  "keywords": [
+    "openclaw",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "tools",
+    "skills",
+    "bridge"
+  ],
+  "author": "OpenClawHQ Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenClawHQ/openclaw-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenClawHQ/openclaw-mcp/issues"
+  },
+  "homepage": "https://github.com/OpenClawHQ/openclaw-mcp#readme"
+}
