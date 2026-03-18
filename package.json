@@ -42,6 +42,8 @@
   "homepage": "https://github.com/effectorHQ/openclaw-mcp#readme",
   "files": [
     "bin/",
-    "src/"
+    "src/",
+    "LICENSE",
+    "README.md"
   ]
 }
